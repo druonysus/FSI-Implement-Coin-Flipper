@@ -10,7 +10,18 @@
     <main>
         <H1>Penny Flip Game</H1>
         <div>
-            <div>Penny Image Display, Button Controls, and Status Message</div>
+            <div>
+                <div>
+                    <img id="penny-image" alt="penny image">
+                </div>
+                <div class="controls">
+                    <button id="flip">Flip The Penny!</button>
+                    <button id="clear">Clear ScoreBoard</button>
+                </div>
+                <div class="message-container">
+                    <h3 id="message">Let's Get Flippin'!</h3>
+                </div>
+            </div>
             <hr>
             <div>
                 <h2>Scoreboard</h2>
@@ -21,6 +32,7 @@
                             <th>Percentage Heads</th>
                             <th>Number of Tails</th>
                             <th>Percentage Tails</th>
+                            <th>Total Flips</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -29,6 +41,7 @@
                             <td id="heads-percent">0%</td>
                             <td id="tails">0</td>
                             <td id="tails-percent">0%</td>
+                            <td id="total-flips">0</td>
                         </tr>
                     </tbody>
                 </table>
