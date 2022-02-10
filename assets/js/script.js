@@ -40,7 +40,6 @@ let pennyPage = {
     onLoad: document.addEventListener('DOMContentLoaded', function() {
         // set img src and message on page load
         pennyPage.image.src = penny.imageSource
-        pennyPage.banner    = scoreBoard.banner
     })
 }
 
@@ -68,8 +67,7 @@ let scoreBoard = {
                     : `You Flipped ${penny.sideUp.toUpperCase()}!`
         
         this.calculatePercentage()
-        pennyPage.image.src = penny.imageSource
-
+        pennyPage.image.src = penny.imageSour
     },
     reset: function() {
         // if you reset the board, you're really resetting
