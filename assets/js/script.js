@@ -38,7 +38,7 @@ let pennyPage = {
         })
     },
     onLoad: document.addEventListener('DOMContentLoaded', function() {
-        // set img src and message on page load
+        // set img src on page load
         pennyPage.image.src = penny.imageSource
     })
 }
